@@ -8,10 +8,12 @@ import {
   H1,
   Links,
   ToogleBar,
+  Title
 } from "./NavbarELements";
 import { GoThreeBars } from "react-icons/go";
 import CV from "../../assets/Md_Solayman_Resume.pdf";
 import { Offcanvas } from "react-bootstrap";
+import { OffCanvasView } from './../OffCanvas/OffCanvasView';
 
 export const Navbar = () => {
   const [show, setShow] = useState(false);
@@ -39,13 +41,12 @@ export const Navbar = () => {
         </Right>
         <ToogleBar>
           <GoThreeBars onClick={handleShow} />
-          <Offcanvas show={show} onHide={handleClose}>
+          <Offcanvas style={{backgroundColor:"#212435"}}show={show} onHide={handleClose}>
             <Offcanvas.Header closeButton>
-              <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+              <Title>Solayman.</Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
-              Some text as placeholder. In real life you can have the elements
-              you have chosen. Like, text, images, lists, etc.
+              <OffCanvasView/>
             </Offcanvas.Body>
           </Offcanvas>
         </ToogleBar>

@@ -85,3 +85,7 @@ export const ToogleBar = styled.div`
     display: none;
   }
 `;
+export const Title = styled.h1`
+  font-size: 16px;
+  color: #009572;
+`;
