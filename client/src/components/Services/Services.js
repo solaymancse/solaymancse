@@ -13,14 +13,15 @@ import {
   H2,
   H1,
   Order,
-  ReactIcon
+  ReactIcon,
+  Title
 } from "./ServicesElements";
 import { AiOutlineHeart } from "react-icons/ai";
 
 export const Services = () => {
   return (
     <Wrapper>
-      <h1>Services</h1>
+      <Title>Services</Title>
       <Content>
         {serviceData.map((data) => (
           <CardBox style={{ backgroundColor: "#2D343E", textAlign: "center" }}>

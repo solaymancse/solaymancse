@@ -1,5 +1,8 @@
 import styled from "styled-components";
-
+import Card from "@mui/material/Card";
+export const CardBox = styled(Card)`
+  flex: 1;
+`;
 export const Title = styled.h1`
   font-size: 20px;
   color: #fff;

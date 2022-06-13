@@ -68,6 +68,10 @@ export const ReactIcon = styled.div`
   color: #333;
   font-size: 30px;
 `;
+export const Title = styled.h1`
+   font-weight: normal;
+    margin-bottom: 30px;
+`;
 export const CardBox = styled.div`
   width: 412px;
   background-color: #2d343e;

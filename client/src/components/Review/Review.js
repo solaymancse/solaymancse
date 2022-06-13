@@ -1,8 +1,9 @@
 import React from "react";
 
 import Slider from "react-slick";
-import { Img, Container,Desc,Div,Wrapper,H1 } from "./ReviewElements";
+import { Img, MainDiv, Desc, Div, Wrapper, H1 } from "./ReviewElements";
 import { reviewData } from "../../Data";
+import { Container } from "react-bootstrap";
 
 export const Review = () => {
   const settings = {
@@ -14,18 +15,20 @@ export const Review = () => {
     slidesToScroll: 1,
   };
   return (
-    <Container>
-     <H1>Client Review</H1>
-     <Wrapper >
-      <Slider {...settings} >
-        {reviewData.map((data) => (
-          <Div>
-            <Img src={data.img} alt="1" />
-            <Desc>"{data.desc}"</Desc>
-          </Div>
-        ))}
-      </Slider>
-     </Wrapper>
-    </Container>
+    <MainDiv>
+      <Container>
+        <H1>Client Review</H1>
+        <Wrapper>
+          <Slider {...settings}>
+            {reviewData.map((data) => (
+              <Div>
+                <Img src={data.img} alt="1" />
+                <Desc>"{data.desc}"</Desc>
+              </Div>
+            ))}
+          </Slider>
+        </Wrapper>
+      </Container>
+    </MainDiv>
   );
 };

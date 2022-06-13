@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const MainDiv = styled.div`
   margin: 100px 0;
-  padding: 10px 250px;
-  background: #44A08D;  /* fallback for old browsers */
+  padding: 20px 0;
+background: #44A08D; 
 background: -webkit-linear-gradient(to right, #093637, #44A08D);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #093637, #44A08D); 
 
@@ -18,7 +18,7 @@ background: linear-gradient(to right, #093637, #44A08D);
 
 `;
 export const Wrapper = styled.div`
-  margin: 20 250px;
+ 
   @media (min-width: 320px) and (max-width: 480px){
     margin: 0;
 }
@@ -50,7 +50,7 @@ export const Desc = styled.p`
 
 `;
 export const H1 = styled.h1`
- 
+ margin: 20px 0;
   font-weight: normal;
   font-size: 16px;
 
