@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/solaymancse/static/css/main.8066fba3.css",
-    "main.js": "/solaymancse/static/js/main.fd802665.js",
+    "main.css": "/solaymancse/static/css/main.d74d9620.css",
+    "main.js": "/solaymancse/static/js/main.1c530a04.js",
     "static/media/img2.jpg": "/solaymancse/static/media/img2.9f0d3d5f2def4f8bb666.jpg",
     "static/media/p1.png": "/solaymancse/static/media/p1.1b9523b9c98f4c8842af.png",
     "static/media/p2.png": "/solaymancse/static/media/p2.a342eaed8475d9b75941.png",
@@ -10,11 +10,11 @@
     "static/media/profile1.jpg": "/solaymancse/static/media/profile1.b964769dcde38b7cba5d.jpg",
     "static/media/signature.png": "/solaymancse/static/media/signature.8c7f611af037cadf67aa.png",
     "index.html": "/solaymancse/index.html",
-    "main.8066fba3.css.map": "/solaymancse/static/css/main.8066fba3.css.map",
-    "main.fd802665.js.map": "/solaymancse/static/js/main.fd802665.js.map"
+    "main.d74d9620.css.map": "/solaymancse/static/css/main.d74d9620.css.map",
+    "main.1c530a04.js.map": "/solaymancse/static/js/main.1c530a04.js.map"
   },
   "entrypoints": [
-    "static/css/main.8066fba3.css",
-    "static/js/main.fd802665.js"
+    "static/css/main.d74d9620.css",
+    "static/js/main.1c530a04.js"
   ]
 }
