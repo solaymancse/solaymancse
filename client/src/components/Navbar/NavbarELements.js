@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
   align-items: center;
   padding: 10px 0;
 
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media (max-width: 575px) {
     padding: 20px 10px;
   }
 `;
@@ -18,6 +18,7 @@ export const H1 = styled.h1`
 
   @media screen and (max-width: 575px) {
     font-size: 18px;
+    margin-top: 5px;
   }
 `;
 export const Center = styled.div`
@@ -79,7 +80,6 @@ export const ToogleBar = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 5px;
 
   @media screen and (min-width: 992px) {
     display: none;

@@ -42,7 +42,7 @@ export const Input = styled.input`
 export const Textarea = styled.textarea`
    height: 150px;
    outline: none;
-   margin-bottom: 50px;
+   margin-bottom: 40px;
    border-radius: 5px;
    background-color: #104241;
    border-color: #104241;

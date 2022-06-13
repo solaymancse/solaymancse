@@ -1,7 +1,8 @@
 import React from "react";
 
-import { Wrapper, Left, Right, H1, Span, Sign,Title,Img } from "./AboutElement";
+import { Wrapper, Left, Right, H1, Span, Sign,Title,Img,Signature } from "./AboutElement";
 import img from "../../assets/solayman.png";
+import signature from "../../assets/signature.png";
 
 export const About = () => {
   return (
@@ -25,15 +26,7 @@ export const About = () => {
             My first Priority and I Never Compromise With That.
           </H1>
           <Sign>
-            <svg height="210" width="500">
-              <line
-                x1="50"
-                y1="50"
-                x2="300"
-                y2="50"
-                style={{ stroke: "rgb(255,0,0)", strokeWidth: "2" }}
-              />
-            </svg>
+            <Signature src={signature} alt="/"/>
           </Sign>
         </Right>
       </Wrapper>

@@ -7,6 +7,10 @@ export const Container = styled.div`
 background: -webkit-linear-gradient(to right, #093637, #44A08D);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #093637, #44A08D); 
 
+@media (min-width: 576px) and (max-width: 768px){
+  margin: 20px 0px;
+  padding: 10px 50px;
+}
 @media (min-width: 320px) and (max-width: 480px){
   margin: 20px 10px;
   padding: 10px;
@@ -38,6 +42,7 @@ export const Desc = styled.p`
   margin: 0px auto 60px;
   font-weight: normal;
   font-size: 16px;
+  color: #A5892F;
   @media (min-width: 320px) and (max-width: 480px){
     width: 100%;
     padding:  0 10px;

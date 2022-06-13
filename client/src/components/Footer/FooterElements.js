@@ -5,6 +5,7 @@ export const Container = styled.div`
   width: 100%;
   padding: 100px 0px;
 
+  
   @media (min-width: 320px) and (max-width: 480px) {
     padding: 50px 0px;
   }
@@ -17,6 +18,9 @@ export const Wrapper = styled.div`
   justify-content: space-around;
   border-bottom: 0.5px solid #6c757d;
 
+  @media (min-width: 576px) and (max-width: 768px){
+    margin: 0 20px;
+}
   @media (min-width: 320px) and (max-width: 480px) {
     margin: 0 20px;
     flex-direction: column;
@@ -50,7 +54,8 @@ export const Social = styled.div`
   display: flex;
   gap: 20px;
 `;
-export const Icon = styled.div`
+export const Icon = styled.a`
+
   display: flex;
   gap: 20px;
   color: gray;

@@ -1,7 +1,7 @@
 import React from "react";
 
-import Slider from "react-slick";
-import { H1,Img,H3,Div } from "./TutorialElements";
+
+import { H1,Img,H3,Div,SliderBox } from "./TutorialElements";
 import img2 from "../../assets/img2.jpg";
 import { Links } from './../Projects/ProjectsElements';
 export const Tutorial = () => {
@@ -32,8 +32,7 @@ export const Tutorial = () => {
     },
   ];
   var settings = {
-    dots: true,
-    infinite: false,
+    infinite: true,
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 4,
@@ -68,14 +67,14 @@ export const Tutorial = () => {
   return (
     <div>
       <H1>Tutorial</H1>
-      <Slider {...settings}>
+      <SliderBox {...settings}>
         {SliderData.map((data) => (
           <Div>
             <Img src={data.img} alt="1" />
             <H3>{data.title}</H3>
           </Div>
         ))}
-      </Slider>
+      </SliderBox>
       <Links><a href='/'>See All</a></Links>
     </div>
   );

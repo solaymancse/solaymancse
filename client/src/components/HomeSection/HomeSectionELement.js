@@ -41,6 +41,10 @@ export const Span = styled.span`
   line-height: 170px;
   color: #009572;
 
+  
+  @media (min-width: 576px) and (max-width: 768px) {
+    font-size: 40px;
+  }
   @media (min-width: 320px) and (max-width: 480px) {
     font-size: 30px;
     line-height: 70px;

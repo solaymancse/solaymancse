@@ -25,10 +25,10 @@ export const Footer = () => {
           <H1>Social</H1>
           <Social>
 
-          <Icon><FaFacebook/></Icon>
-          <Icon><AiFillGithub/></Icon>
-          <Icon><AiFillLinkedin/></Icon>
-          <Icon><AiFillYoutube/></Icon>
+          <Icon target="_blank" href="https://www.facebook.com/SolaymanMuhammad1"><FaFacebook/></Icon>
+          <Icon target="_blank" href="https://github.com/solaymancse"><AiFillGithub/></Icon>
+          <Icon target="_blank" href="https://www.linkedin.com/in/md-solayman-686600157/"><AiFillLinkedin/></Icon>
+          <Icon target="_blank" href="https://www.youtube.com/channel/UC-dummRPZ2jjHyN-LSlJdJg"><AiFillYoutube/></Icon>
           </Social>
         </div>
       </Wrapper>

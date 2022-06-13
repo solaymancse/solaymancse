@@ -22,10 +22,10 @@ export const GetInTouch = () => {
         <Left>
           <Form onSubmit={handleSubmit(onSubmit)}>
             {/* register your input into the hook by invoking the "register" function */}
-            <Input placeholder="Name" {...register("example")} />
-            <Input placeholder="Email" {...register("example")} />
-            <Input placeholder="Subject" {...register("example")} />
-            <Textarea placeholder="Message" type="text" {...register("example")} />
+            <Input placeholder="Name" {...register("name")} />
+            <Input placeholder="Email" {...register("email")} />
+            <Input placeholder="Subject" {...register("subject")} />
+            <Textarea placeholder="Message" type="text" {...register("message")} />
 
             {/* include validation with required or other standard HTML validation rules */}
             {/* <input {...register("exampleRequired", { required: true })} /> */}

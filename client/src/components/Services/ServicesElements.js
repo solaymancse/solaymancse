@@ -13,6 +13,11 @@ export const Content = styled.div`
   gap: 20px;
   width: 100%;
   flex-wrap: wrap;
+
+  @media (min-width: 576px) and (max-width: 768px){
+  display: flex;
+  justify-content: center;
+}
 `;
 export const Icon = styled.div`
   margin-top: 30px;

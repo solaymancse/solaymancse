@@ -37,11 +37,17 @@ export const Span = styled.h1`
   color: grey;
 `;
 export const Sign = styled.div`
-  color: grey;
+border-bottom: 0.5px solid #6c757d;
+ width: 300px;
+ height: 120px;
 `;
 export const Title = styled.h1`
   height: 10vh;
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   margin-left: 10px;
+`;
+export const Signature = styled.img`
+ width: 300px;
+ height: 170px;
 `;
