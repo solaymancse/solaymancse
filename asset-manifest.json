@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/solaymancse/static/css/main.6d0553f1.css",
-    "main.js": "/solaymancse/static/js/main.eb1c39c6.js",
+    "main.css": "/solaymancse/static/css/main.8066fba3.css",
+    "main.js": "/solaymancse/static/js/main.fd802665.js",
     "static/media/img2.jpg": "/solaymancse/static/media/img2.9f0d3d5f2def4f8bb666.jpg",
     "static/media/p1.png": "/solaymancse/static/media/p1.1b9523b9c98f4c8842af.png",
     "static/media/p2.png": "/solaymancse/static/media/p2.a342eaed8475d9b75941.png",
     "static/media/solayman.png": "/solaymancse/static/media/solayman.c01935dec52d1bc203af.png",
     "static/media/Md_Solayman_Resume.pdf": "/solaymancse/static/media/Md_Solayman_Resume.ba6774cf35127a3e7086.pdf",
     "static/media/profile1.jpg": "/solaymancse/static/media/profile1.b964769dcde38b7cba5d.jpg",
+    "static/media/signature.png": "/solaymancse/static/media/signature.8c7f611af037cadf67aa.png",
     "index.html": "/solaymancse/index.html",
-    "main.6d0553f1.css.map": "/solaymancse/static/css/main.6d0553f1.css.map",
-    "main.eb1c39c6.js.map": "/solaymancse/static/js/main.eb1c39c6.js.map"
+    "main.8066fba3.css.map": "/solaymancse/static/css/main.8066fba3.css.map",
+    "main.fd802665.js.map": "/solaymancse/static/js/main.fd802665.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d0553f1.css",
-    "static/js/main.eb1c39c6.js"
+    "static/css/main.8066fba3.css",
+    "static/js/main.fd802665.js"
   ]
 }
