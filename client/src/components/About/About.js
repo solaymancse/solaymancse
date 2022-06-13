@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Wrapper, Left, Right, H1, Span, Sign,Title } from "./AboutElement";
+import { Wrapper, Left, Right, H1, Span, Sign,Title,Img } from "./AboutElement";
 import img from "../../assets/solayman.png";
 
 export const About = () => {
@@ -9,7 +9,7 @@ export const About = () => {
       <Title>About Me</Title>
       <Wrapper>
         <Left>
-          <img src={img} alt="img" />
+          <Img src={img} alt="img" />
         </Left>
         <Right>
           <Span>Hello There !</Span>

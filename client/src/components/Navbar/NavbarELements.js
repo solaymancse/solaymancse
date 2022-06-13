@@ -5,10 +5,10 @@ export const Wrapper = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
+  padding: 10px 0;
 
   @media (min-width: 320px) and (max-width: 480px) {
-    padding: 5px 10px;
+    padding: 20px 10px;
   }
 `;
 export const Left = styled.div``;

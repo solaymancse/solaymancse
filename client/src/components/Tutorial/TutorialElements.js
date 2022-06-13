@@ -1,8 +1,14 @@
 import styled from 'styled-components';
 
-export const H1 = styled.h1``
+export const H1 = styled.h1`
+    font-weight: normal;
+`
 export const Div = styled.div`
     margin-top: 100px;
+
+    @media (min-width: 320px) and (max-width: 480px){
+        margin-top: 30px;
+    }
 `
 export const H3 = styled.h3`
     font-size: 16px;

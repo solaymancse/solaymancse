@@ -3,6 +3,10 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   margin-top: 100px;
   margin-bottom: 150px;
+
+@media (min-width: 320px) and (max-width: 480px){
+  margin-bottom: 50px;
+}
 `;
 export const Content = styled.div`
   display: flex;

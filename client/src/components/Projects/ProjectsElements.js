@@ -6,7 +6,9 @@ export const Wrapper = styled.div`
   gap: 20px;
 
   @media (min-width: 320px) and (max-width: 480px){
+    width: 100%;
     flex-direction: column;
+    margin: 0;
 }
 `;
 export const H1 = styled.h1`

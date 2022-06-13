@@ -12,7 +12,7 @@ export const ProjectCard = () => {
   return (
     <>
       {projectData.map((data) => (
-        <Card sx={{ minWidth: 452 }}>
+        <Card sx={{ maxWidth: 452 }}>
           <CardMedia
             component="img"
             alt="green iguana"

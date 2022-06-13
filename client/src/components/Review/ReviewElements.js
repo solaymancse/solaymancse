@@ -5,7 +5,12 @@ export const Container = styled.div`
   padding: 10px 250px;
   background: #44A08D;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #093637, #44A08D);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #093637, #44A08D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to right, #093637, #44A08D); 
+
+@media (min-width: 320px) and (max-width: 480px){
+  margin: 20px 10px;
+  padding: 10px;
+}
 
 `;
 export const Wrapper = styled.div`
@@ -33,5 +38,20 @@ export const Desc = styled.p`
   margin: 0px auto 60px;
   font-weight: normal;
   font-size: 16px;
+  @media (min-width: 320px) and (max-width: 480px){
+    width: 100%;
+    padding:  0 10px;
+}
+
+`;
+export const H1 = styled.h1`
+ 
+  font-weight: normal;
+  font-size: 16px;
+
+  @media (min-width: 320px) and (max-width: 480px){
+    text-align: center;
+    margin-bottom: 30px;
+  }
 
 `;

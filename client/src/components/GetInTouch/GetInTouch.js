@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Wrapper, Left, Right, Input, Form,Button,Textarea } from "./GetInTouchElements";
+import { Wrapper, Left, Right, Input, Form,Button,Textarea,H1 } from "./GetInTouchElements";
 import { useForm } from "react-hook-form";
 import Map from "../Map/Map";
 
@@ -17,7 +17,7 @@ export const GetInTouch = () => {
   
   return (
     <div>
-      <h1>Get In Touch</h1>
+      <H1>Get In Touch</H1>
       <Wrapper>
         <Left>
           <Form onSubmit={handleSubmit(onSubmit)}>

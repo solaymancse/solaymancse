@@ -1,8 +1,9 @@
 import React from "react";
 
 import Slider from "react-slick";
-import { Img, Container,Desc,Div,Wrapper } from "./ReviewElements";
+import { Img, Container,Desc,Div,Wrapper,H1 } from "./ReviewElements";
 import { reviewData } from "../../Data";
+
 export const Review = () => {
   const settings = {
     dots: true,
@@ -14,7 +15,7 @@ export const Review = () => {
   };
   return (
     <Container>
-     <h1>Client Review</h1>
+     <H1>Client Review</H1>
      <Wrapper >
       <Slider {...settings} >
         {reviewData.map((data) => (
