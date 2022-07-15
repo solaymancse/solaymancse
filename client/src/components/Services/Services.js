@@ -23,8 +23,8 @@ export const Services = () => {
     <Wrapper>
       <Title>Services</Title>
       <Content>
-        {serviceData.map((data) => (
-          <CardBox style={{ backgroundColor: "#2D343E", textAlign: "center" }}>
+        {serviceData.map((data,index) => (
+          <CardBox key={index} style={{ backgroundColor: "#2D343E", textAlign: "center" }}>
             <Icon>{data.icon}</Icon>
             <CardContent>
               <Code>{data.title}</Code>

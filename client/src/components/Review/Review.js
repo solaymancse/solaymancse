@@ -20,8 +20,8 @@ export const Review = () => {
         <H1>Client Review</H1>
         <Wrapper>
           <Slider {...settings}>
-            {reviewData.map((data) => (
-              <Div>
+            {reviewData.map((data,index) => (
+              <Div key={index}>
                 <Img src={data.img} alt="1" />
                 <Desc>"{data.desc}"</Desc>
               </Div>

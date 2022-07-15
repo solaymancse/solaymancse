@@ -11,8 +11,8 @@ import { Title, Code, Desc, Links,CardBox } from "./ProjectCardElement";
 export const ProjectCard = () => {
   return (
     <>
-      {projectData.map((data) => (
-        <CardBox>
+      {projectData.map((data,index) => (
+        <CardBox key={index}>
           <CardMedia
             component="img"
             alt="green iguana"
@@ -24,8 +24,8 @@ export const ProjectCard = () => {
           >
             <Title>{data.title}</Title>
             <Code>
-              {data.code.map((langs) => (
-                <Desc>{langs}</Desc>
+              {data.code.map((langs,index) => (
+                <Desc key={index}>{langs}</Desc>
               ))}
             </Code>
           </CardContent>

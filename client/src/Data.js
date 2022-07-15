@@ -8,6 +8,7 @@ import img1 from "./assets/p1.png"
 import img2 from "./assets/p2.png"
 import img3 from './assets/profile.jpg'
 import img4 from './assets/profile1.jpg'
+import img5 from './assets/p3.png'
 export const compareData = [
     {
         icon: <BiCodeBlock/>,
@@ -55,8 +56,8 @@ export const projectData = [
     },
 
     {
-        img: `${img1}`,
-        title: "Portfolio",
+        img: `${img5}`,
+        title: "Grocery Store Website",
         code: [ "react","node","express","mongoDB"],
         live: "/",
         source:"/"

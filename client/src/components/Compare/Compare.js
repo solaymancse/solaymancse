@@ -7,8 +7,8 @@ import CountUp from 'react-countup';
 export const Compare = () => {
   return (
     <Wrapper>
-      {compareData.map((data) => (
-        <Div>
+      {compareData.map((data,index) => (
+        <Div key={index}>
             <Icon>{data.icon}</Icon>
             <Title>{data.title}</Title>
             <Desc><CountUp end={data.end} />+</Desc>

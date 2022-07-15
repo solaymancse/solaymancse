@@ -40,7 +40,7 @@ export const Home = () => {
     <>
       {!done ? (
        <div>
-          <div class="loader">
+          <div className="loader">
           <span></span>
           <span></span>
           <span></span>

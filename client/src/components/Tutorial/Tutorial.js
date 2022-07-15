@@ -68,8 +68,8 @@ export const Tutorial = () => {
     <div>
       <H1>Tutorial</H1>
       <Slider {...settings}>
-        {SliderData.map((data) => (
-          <Div>
+        {SliderData.map((data,index) => (
+          <Div key={index}>
             <Img src={data.img} alt="1" />
             <H3>{data.title}</H3>
           </Div>
