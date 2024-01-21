@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Muhammad Solayman</h1>
+<h1 align="center">HI 👋, I'm Muhammad Solayman</h1>
 <h3 align="center">A passionate Software Enginner</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=solaymancse&label=Profile%20views&color=0e75b6&style=flat" alt="solaymancse" /> </p>
