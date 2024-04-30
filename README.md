@@ -2,8 +2,8 @@
 <h3 align="center">A passionate Software Enginner</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=solaymancse&label=Profile%20views&color=0e75b6&style=flat" alt="solaymancse" /> </p>
-[![trophy](https://github-profile-trophy.vercel.app/?username=solaymancse)](https://github.com/solaymancse/github-profile-trophy)
 
+<p>[![trophy](https://github-profile-trophy.vercel.app/?username=solaymancse)](https://github.com/solaymancse/github-profile-trophy)</p>
 
 <p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
 
